@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_book_sections",
+  "info": {
+    "displayName": "Section",
+    "icon": "book-open"
+  },
+  "options": {},
+  "attributes": {
+    "SectionTitle": {
+      "type": "string",
+      "required": true
+    },
+    "Pages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "book.page",
+      "min": 1,
+      "required": true
+    }
+  }
+}

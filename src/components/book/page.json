@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_book_pages",
+  "info": {
+    "displayName": "Page",
+    "icon": "clone"
+  },
+  "options": {},
+  "attributes": {
+    "Body": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
