@@ -5,4 +5,9 @@ module.exports = ({ env }) => ({
       jwtSecret: env("JWT_SECRET"),
     },
   },
+  "strapi-plugin-populate-deep": {
+    config: {
+      defaultDepth: 3,
+    },
+  },
 });
