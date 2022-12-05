@@ -1,8 +1,8 @@
 {
-  "name": "strapi",
+  "name": "ozgur-yazar",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Ozgur Yazar CMS",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -11,19 +11,20 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^1.1.2",
     "@strapi/plugin-i18n": "4.5.3",
     "@strapi/plugin-users-permissions": "4.5.3",
     "@strapi/strapi": "4.5.3",
     "pg": "8.7.3"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "M.Salih Gumus"
   },
   "strapi": {
     "uuid": "35d7a084-3088-4d0b-869e-f503693ee8e5"
   },
   "engines": {
-    "node": ">=12.x.x <=18.x.x",
+    "node": ">=12.x.x <=16.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
